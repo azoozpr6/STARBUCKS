@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: sans-serif;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            scroll-behavior: smooth;
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+
+        }
+        .sec::before{
+            z-index: -100;
+            position: fixed;
+            content: "";
+            float: right;
+            clip-path: circle(50%);
+            height: 2100px;
+            width: 2500px;
+            background-color: rgb(34, 104, 104,1.1);
+            transform: rotate(50deg);
+            border-radius: 20%;
+           
+        }
+        header{
+            display: flex;
+            height: 105px;
+            width: 100%;
+            align-items: center;
+            justify-content: space-between;
+        }
+        ul li{
+            display: inline-block;
+            margin: 0px 15px;
+        }
+        ul li a{
+            text-decoration: none;
+            color: rgb(21, 255, 0);
+            font-size: larger;
+        }
+        .logo{
+            margin: 0px 25px;
+        }
+        .sec{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .div-home{
+            margin-left: 20px;
+            
+        }
+        .div-text p{
+            margin-top: 25px;
+            font-size: larger;
+            width: 660px;
+        }
+        img{
+            transform: rotate(20deg);
+        }
+    </style>
+
+
+    <header>
+        <h1 class="logo">STARBUCKS</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://www.starbucks.com/">Website Starbucks</a></li>
+        </ul>
+    </header>
+
+    <div class="sec">
+        <div class="circle"> </div>
+        <div class="div-home">
+            <div class="div-text">
+            <h1 style="font-size: xx-large; color: rgb(0, 200, 0);">I'am STARBUCKS</h1>
+            <p>Starbucks Corp (Starbucks) is a specialty 
+                coffee retailer. It roasts, markets, and retails 
+                specialty coffee. The company, through its stores, 
+                offers several blends of coffee, handcrafted beverages, 
+                merchandise, and food items.</p>
+            </div>
+        </div>
+
+        <div class="div-next">
+            <img src="pngwing.com (1).png" alt="" > 
+        </div>
+
+    </div>
+
+    <script>
+   
+           
+        
+        
+        
+    </script>
+</body>
+</html>
